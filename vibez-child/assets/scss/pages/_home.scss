@@ -1,0 +1,54 @@
+.hero-banner {
+    @include media-breakpoint-up(xl) {
+        margin-bottom: 30px;
+    }
+}
+
+.home-layout-three {
+    @include media-breakpoint-up(xl) {
+        padding: 30px 60px;
+    }
+    .box-content {
+        @include media-breakpoint-up(xl) {
+            bottom: 31px;
+        }
+    }
+}
+
+.best-selling-section {
+    @include media-breakpoint-up(xl) {
+        padding: 30px 60px;
+    }
+    .products-row {
+        @include media-breakpoint-up(lg) {
+            margin-bottom: rem-calc(32px)
+        }
+        .product-col {
+            @include media-breakpoint-down(sm) {
+                padding-right: rem-calc(15px);
+            }
+        }
+    }
+    button.btn, 
+    a.btn, 
+    input.btn {
+        border: 1px solid $theme-secondary-color;
+        background: transparent;
+        color: $theme-secondary-color;
+        &:not(:disabled):not(.disabled):hover,
+        &:not(:disabled):not(.disabled):focus {
+            background: $theme-secondary-color;
+            border-color: $theme-secondary-color ;
+            color: #fff !important;
+        }
+    }
+}
+
+.home-layout-six {
+    @include media-breakpoint-up(xl) {
+        padding: 30px 75px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-inline: 0;
+    }
+}

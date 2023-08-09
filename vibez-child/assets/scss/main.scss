@@ -1,0 +1,32 @@
+@import "vendors/bootstrap/functions";
+@import "vendors/bootstrap/variables";
+@import "bootstrap-custom";
+@import "vendors/bootstrap/mixins";
+
+// @import "bootstrap";
+
+@import 'base/functions';
+@import 'base/mixins';
+@import 'base/helpers';
+
+@import 'layout/general';
+@import 'layout/header';
+
+@import 'component/product-item';
+
+@import 'pages/home';
+@import 'pages/single-article';
+@import 'pages/contact';
+@import 'pages/single-product';
+@import 'pages/category';
+@import 'pages/blogs';
+@import 'pages/payment';
+@import 'pages/about';
+@import 'pages/branches';
+@import 'pages/cart';
+@import 'pages/woocommerce';
+@import 'pages/thankyou';
+@import 'pages/faqs';
+@import 'pages/woo-account';
+
+@import 'layout/footer';

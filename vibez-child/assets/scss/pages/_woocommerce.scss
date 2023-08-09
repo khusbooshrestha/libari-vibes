@@ -1,0 +1,5 @@
+.woocommerce-breadcrumb {
+    @include media-breakpoint-down(sm) {
+        padding: 0.67rem 0.625rem;
+    }
+}

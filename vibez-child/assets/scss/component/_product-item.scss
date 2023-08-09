@@ -1,0 +1,37 @@
+.product-item {
+    .product-title, 
+    .product-name {
+        a {
+            font-weight: 300;
+        }
+    }
+    span.price, 
+    .product-price {
+        del {
+            span {
+                text-decoration: line-through;
+            }
+        }
+        ins {
+            color: #FF0000;
+        }
+    }
+    
+    .matat_sale_badge, 
+    .sold-out-label, 
+    .sale-label, 
+    .new-label, 
+    .off-label, 
+    .comming-soon-label {
+        background: rgba(255,255,255,0.7);
+        
+    }
+    .btn-add-wishlist {
+        background: rgba(255,255,255,0.75);
+        box-shadow: none;
+    }
+    span.price,
+    .product-price {
+        font-weight: 300;
+    }
+}

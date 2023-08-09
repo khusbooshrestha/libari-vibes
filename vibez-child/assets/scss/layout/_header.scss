@@ -1,0 +1,35 @@
+#header {
+    box-shadow: none;
+    .single-product & {
+        border-bottom: 1px solid #D8D8D8;
+    }
+    
+}
+.header-offer-bar {
+    background: $theme-primary-color;
+}
+.header-action-nav {
+    .counter_wish, 
+    .counter {
+        background: $theme-secondary-color;
+    }
+}
+.logo {
+    @include media-breakpoint-down(sm) {
+        top: rem-calc(29px);
+        width: rem-calc(112px);
+    }
+    @include media-breakpoint-up(md) {
+        margin: 0 auto 8px;
+        width: 11.125rem;
+    }
+    img {
+        max-height: 34px;
+        @include media-breakpoint-up(md) {
+            max-height: 40px;
+        }
+        @include media-breakpoint-up(lg) {
+            max-height: 58px;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+button.btn.btn-white, 
+a.btn.btn-white, 
+input.btn.btn-white {
+    border-color: #fff;
+    background: #fff;
+    color: $theme-secondary-color;
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):focus {
+        border-color: $theme-secondary-color !important;
+        color: $theme-secondary-color !important;
+    }
+}
+
+
+button.btn.has_width, 
+a.btn.has_width, 
+input.btn.has_width {
+    @include media-breakpoint-down(sm) {
+        width: 6.9375rem;
+    }
+}
+
+button.btn, 
+a.btn, 
+input.btn {
+    font-size: rem-calc(12px);
+    font-weight: 400;
+    @include media-breakpoint-up(lg) {
+        font-size: 16px;
+        padding: 0.6rem 0.625rem;
+    }
+}
+
+.section-title {
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+button.btn.btn-primary, 
+button.btn.button, 
+a.btn.btn-primary, 
+a.btn.button, 
+input.btn.btn-primary,  
+input.btn.button,
+button.btn, 
+a.btn, 
+input.btn {
+    background: $theme-secondary-color;
+    border-color: $theme-secondary-color;
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):focus {
+        border-color: $theme-secondary-color ;
+        background: #fff ;
+        color: $theme-secondary-color ;
+    }
+}
+.ajax-sugg-res-inner .search-topics-col a.btn-primary  {
+    background: $theme-secondary-color;
+    border-color: $theme-secondary-color;
+    &:not(:disabled):not(.disabled):hover,
+    &:not(:disabled):not(.disabled):focus {
+        border-color: $theme-secondary-color !important;
+        background: #fff !important;
+        color: $theme-secondary-color !important;
+    }
+}
+
+.product-item {
+    .matat_sale_badge, 
+    .sold-out-label, 
+    .sale-label, 
+    .new-label, 
+    .off-label, 
+    .comming-soon-label {
+        color: $theme-secondary-color;
+    }
+}
